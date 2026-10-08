@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Glowing Outer Core Glow -->
+    <path
+        android:pathData="M 54,30 A 24,24 0 1,0 54,78 A 24,24 0 1,0 54,30">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="30"
+                android:startY="30"
+                android:endX="78"
+                android:endY="78"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#00F0FF" />
+                <item android:offset="0.5" android:color="#3B82F6" />
+                <item android:offset="1.0" android:color="#8B5CF6" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Inner Dark Orb -->
+    <path
+        android:fillColor="#0D111E"
+        android:pathData="M 54,34 A 20,20 0 1,0 54,74 A 20,20 0 1,0 54,34" />
+    <!-- Core AI Orb Inner Ring -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#38BDF8"
+        android:strokeWidth="1.5"
+        android:pathData="M 54,37 A 17,17 0 1,0 54,71 A 17,17 0 1,0 54,37" />
+    <!-- Microphone Capsule Center -->
+    <path
+        android:pathData="M54,42 C51.79,42 50,43.79 50,46 L50,54 C50,56.21 51.79,58 54,58 C56.21,58 58,56.21 58,54 L58,46 C58,43.79 56.21,42 54,42 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="50"
+                android:startY="42"
+                android:endX="58"
+                android:endY="58"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#FFFFFF" />
+                <item android:offset="1.0" android:color="#67E8F9" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Microphone Cradle Arc and Stand -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#A5F3FC"
+        android:strokeWidth="1.8"
+        android:strokeLineCap="round"
+        android:pathData="M46,52 C46,57 49.5,61.5 54,61.5 C58.5,61.5 62,57 62,52" />
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#A5F3FC"
+        android:strokeWidth="1.8"
+        android:strokeLineCap="round"
+        android:pathData="M54,61.5 L54,66" />
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#A5F3FC"
+        android:strokeWidth="1.8"
+        android:strokeLineCap="round"
+        android:pathData="M50,66 L58,66" />
+    <!-- Pulse Wave Nodes -->
+    <path
+        android:fillColor="#38BDF8"
+        android:pathData="M42,54 A 1.5,1.5 0 1,0 42,51 A 1.5,1.5 0 1,0 42,54" />
+    <path
+        android:fillColor="#C084FC"
+        android:pathData="M66,54 A 1.5,1.5 0 1,0 66,51 A 1.5,1.5 0 1,0 66,54" />
+</vector>
